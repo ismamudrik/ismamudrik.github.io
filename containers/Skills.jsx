@@ -22,7 +22,7 @@ const Skills = () => {
 								return (
 									<Fragment key={skill.skillName}>
 										<div
-											className="icon icon-lg icon-shape shadow rounded-circle mb-5"
+											className="icon icon-lg icon-shape shadow rounded-circle mb-5 mx-1"
 											id={skill.skillName}
 										>
 											<span
@@ -44,7 +44,7 @@ const Skills = () => {
 								);
 							})}
 						</div>
-						<div>
+						<div style={{textAlign: "left"}}>
 							{skillsSection.skills.map((skill) => {
 								return <p key={skill}>{skill}</p>;
 							})}

@@ -21,7 +21,7 @@ const Feedbacks = () => {
 							</h4>
 						</div>
 					</div>
-					<Row className="row-grid align-items-center">
+					<Row className="row-grid">
 						{feedbacks.map((data, i) => {
 							return (
 								<Col key={i} lg={6}>

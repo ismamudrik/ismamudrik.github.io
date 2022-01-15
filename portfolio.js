@@ -1,44 +1,47 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Ismail Mudrik",
+	title: "Hi all, I'm Ismail",
 	description:
-		"A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-	resumeLink: "https://cv.hanzla.ga",
+		"A passionate Full Stack Shopify and Shopify App Developer having an experience of building Shopify stores and apps with cool libraries. Also have great experience with Frontend(React, Vue, HTML5) and Backend(Node, PHP, Ruby)",
+	resumeLink: "https://resume.io/r/0RfWFckFj",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "ismamudrik",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/",
+	github: "https://github.com/ismamudrik",
+	email: "mailto:ismamudrik@gmail.com",
+	stackOverflow: "https://stackoverflow.com/users/17857821/ismail-mudrik",
+	linkedin: "https://linkedin.com/ismamudrik",
 };
 
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"CRAZY FULL STACK SHOPIFY/MERN STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
 	skills: [
 		emoji(
-			"⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+			"⚡ Develop highly interactive Front end / User Interfaces / User experiences for your Shopify store"
 		),
 		emoji(
-			"⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"
+			"⚡ Develop custom / public Shopify Apps"
 		),
 		emoji(
-			"⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+			"⚡ Integration of third party Apps on your Shopify store"
 		),
 	],
 
 	softwareSkills: [
+		{
+			skillName: "liquid",
+			fontAwesomeClassname: "logos:shopify",
+		},
 		{
 			skillName: "html-5",
 			fontAwesomeClassname: "vscode-icons:file-type-html",
@@ -64,64 +67,48 @@ export const skillsSection = {
 			fontAwesomeClassname: "vscode-icons:file-type-reactjs",
 		},
 		{
+			skillName: "vuejs",
+			fontAwesomeClassname: "vscode-icons:file-type-vue",
+		},
+		{
 			skillName: "nodejs",
 			fontAwesomeClassname: "logos:nodejs-icon",
 		},
 		{
-			skillName: "flutter",
-			fontAwesomeClassname: "logos:flutter",
+			skillName: "nextjs",
+			fontAwesomeClassname: "logos:nextjs",
 		},
 		{
-			skillName: "swift",
-			fontAwesomeClassname: "vscode-icons:file-type-swift",
+			skillName: "nuxt",
+			fontAwesomeClassname: "logos:nuxt",
 		},
 		{
-			skillName: "npm",
-			fontAwesomeClassname: "vscode-icons:file-type-npm",
+			skillName: "express",
+			fontAwesomeClassname: "logos:express",
 		},
 		{
-			skillName: "sql-database",
-			fontAwesomeClassname: "vscode-icons:file-type-sql",
+			skillName: "ruby",
+			fontAwesomeClassname: "logos:ruby",
 		},
 		{
-			skillName: "mongoDB",
-			fontAwesomeClassname: "vscode-icons:file-type-mongo",
-		},
-		{
-			skillName: "aws",
-			fontAwesomeClassname: "logos:aws",
-		},
-		{
-			skillName: "firebase",
-			fontAwesomeClassname: "logos:firebase",
-		},
-		{
-			skillName: "python",
-			fontAwesomeClassname: "logos:python",
-		},
-		{
-			skillName: "git",
-			fontAwesomeClassname: "logos:git-icon",
-		},
-		{
-			skillName: "docker",
-			fontAwesomeClassname: "logos:docker-icon",
+			skillName: "php",
+			fontAwesomeClassname: "logos:php",
 		},
 	],
 };
 
 export const SkillBars = [
 	{
-		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "90", //Insert relative proficiency in percentage
+		Stack: "Shopify", //Insert stack or technology you have experience in
+		progressPercentage: "85", //Insert relative proficiency in percentage
+	},
+	{
+		Stack: "Frontend",
+		progressPercentage: "95",
 	},
 	{
 		Stack: "Backend",
-		progressPercentage: "70",
-	},
-	{
-		Stack: "Programming",
-		progressPercentage: "60",
+		progressPercentage: "80",
 	},
 ];
 
@@ -187,32 +174,36 @@ export const experience = [
 
 export const projects = [
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		link: "https://example.com",
+		name: "MixMyCandy",
+		desc: "Shopify store with customizable products",
+		link: "https://mixmycandy.com",
 	},
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
+		name: "ThisIsNeeded",
+		desc: "Shopify store",
+		link: "https://thisisneeded.com",
 	},
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
-		link: "https://example.com",
+		name: "MadRabbitTatto",
+		desc: "Shopify store",
+		link: "https://madrabbit.com",
+	},
+	{
+		name: "LevelFoods",
+		desc: "Shopify store",
+		link: "https://levelfoods.com",
 	},
 ];
 
 export const feedbacks = [
 	{
-		name: "Hassan Mehmood",
+		name: "Michael Long",
 		feedback:
-			"We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Hanzla tauqeer has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
+			"We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Ismail has been great. He handles things very efficiently and are available for any questions we have. He also keeps us updated on daily reports so we know how our site is doing. I would recommend that u have choose his services for u.",
 	},
 	{
-		name: "Maheen Altaf",
+		name: "Tim Henning",
 		feedback:
-			"the website is very nice, everything was perfectly made as i need. it just loads in moments, without giving u the chance to wait. the quality is also very amazing. i am using it without any problem. great job",
+			"The website is very nice, everything was perfectly made as I need. It just loads in moments, without giving you the chance to wait. The quality is also very amazing. I am using it without any problem. Great job! A+++",
 	},
 ];

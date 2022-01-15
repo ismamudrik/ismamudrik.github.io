@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { greetings } from "../portfolio";
 
 import { Button, Container, Row, Col } from "reactstrap";
+import Image from "next/image";
 
 import GreetingLottie from "../components/DisplayLottie";
 import SocialLinks from "../components/SocialLinks";
@@ -42,6 +43,7 @@ const Greetings = () => {
 											className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
 											color="default"
 											href={greetings.resumeLink}
+											target="_blank"
 										>
 											<span className="btn-inner--icon mr-1">
 												<i className="fa fa-file" />
@@ -52,8 +54,13 @@ const Greetings = () => {
 										</Button>
 									</div>
 								</Col>
-								<Col lg="6">
-									<GreetingLottie animationPath="/lottie/coding.json" />
+								<Col lg="6" style={{textAlign: "center"}}>
+									{/* <GreetingLottie animationPath="/lottie/coding.json" /> */}
+									<Image 
+										src={"/img/1.png"} 
+										width={"123"}
+										height={"400"}
+									/>
 								</Col>
 							</Row>
 						</div>

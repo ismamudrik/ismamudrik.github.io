@@ -8,42 +8,6 @@ const SocialLinks = () => {
 	return (
 		<div className="btn-wrapper text-lg">
 			<Button
-				className="btn-icon-only rounded-circle"
-				color="twitter"
-				href={socialLinks.twitter}
-				target="_blank"
-				rel="noopener"
-				aria-label="Twitter"
-			>
-				<span className="btn-inner--icon">
-					<i className="fa fa-twitter" />
-				</span>
-			</Button>
-			<Button
-				className="btn-icon-only rounded-circle ml-1"
-				color="facebook"
-				href={socialLinks.facebook}
-				target="_blank"
-				rel="noopener"
-				aria-label="Facebook"
-			>
-				<span className="btn-inner--icon">
-					<i className="fa fa-facebook-square" />
-				</span>
-			</Button>
-			<Button
-				className="btn-icon-only rounded-circle ml-1"
-				color="instagram"
-				href={socialLinks.instagram}
-				target="_blank"
-				rel="noopener"
-				aria-label="Instagram"
-			>
-				<span className="btn-inner--icon">
-					<i className="fa fa-instagram" />
-				</span>
-			</Button>
-			<Button
 				className="btn-icon-only rounded-circle ml-1"
 				color="github"
 				href={socialLinks.github}
@@ -57,7 +21,7 @@ const SocialLinks = () => {
 			</Button>
 			<Button
 				className="btn-icon-only rounded-circle ml-1"
-				color="twitter"
+				color="linkedin"
 				rel="noopener"
 				aria-label="Linkedin"
 				href={socialLinks.linkedin}
@@ -65,6 +29,29 @@ const SocialLinks = () => {
 			>
 				<span className="btn-inner--icon">
 					<i className="fa fa-linkedin" />
+				</span>
+			</Button>
+			<Button
+				className="btn-icon-only rounded-circle ml-1"
+				color="stackoverflow"
+				href={socialLinks.stackOverflow}
+				rel="noopener"
+				aria-label="Stack Overflow"
+				target="_blank"
+			>
+				<span className="btn-inner--icon">
+					<i className="fa fa-stack-overflow" />
+				</span>
+			</Button>
+			<Button
+				className="btn-icon-only rounded-circle ml-1"
+				color="email"
+				href={socialLinks.email}
+				rel="noopener"
+				aria-label="Email"
+			>
+				<span className="btn-inner--icon">
+					<i className="fa fa-envelope" />
 				</span>
 			</Button>
 		</div>

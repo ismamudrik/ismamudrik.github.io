@@ -19,33 +19,27 @@ export default function Home({ githubProfileData }) {
 		<div>
 			<SEO
 				data={{
-					title: "Hanzla Tauqeer",
+					title: "Ismail Mudrik",
 					description:
-						"A passionate Full Stack Web Developer and Mobile App Developer.",
+						"A passionate Full Stack Shopify/Shopify Plus/Shopify App Developer.",
 					image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-					url: "https://developer-portfolio-1hanzla100.vercel.app",
+					url: "https://ismamudrik.github.io",
 					keywords: [
-						"Hanzla",
-						"Hanzla Tauqeer",
-						"@1hanzla100",
-						"1hanzla100",
+						"Ismail",
+						"Ismail Mudrik",
+						"@ismamudrik",
+						"ismamudrik",
 						"Portfolio",
-						"Hanzla Portfolio ",
-						"Hanzla Tauqeer Portfolio",
-						"web developer",
+						"Ismail Portfolio ",
+						"Ismail Mudrik Portfolio",
+						"shopify developer",
 						"full stack",
 						"full stack web developer",
-						"mobile app developer",
-						"android developer",
-						"django",
-						"flask",
-						"django rest framework",
 						"nodejs ",
 						"expressjs",
 						"reactjs ",
 						"contextapi",
 						"redux",
-						"flutter",
 					],
 				}}
 			/>
@@ -53,8 +47,6 @@ export default function Home({ githubProfileData }) {
 			<Greetings />
 			<Skills />
 			<Proficiency />
-			<Education />
-			<Experience />
 			<Feedbacks />
 			<Projects />
 			<GithubProfileCard prof={githubProfileData} />
