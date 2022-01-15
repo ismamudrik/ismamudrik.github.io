@@ -3,14 +3,17 @@
 	"version": "1.0.0",
 	"description": "Software Developer Portfolio Template built with react.js bootstrap that helps you showcase your work and skills as a software developer.",
 	"main": "index.js",
-	"repository": "https://github.com/1hanzla100/hanzla-portfolio.git",
+	"repository": "https://github.com/ismamudrik/ismamudrik.github.io.git",
+	"homepage": "https://ismamudrik.github.io",
 	"author": "Hanzla Tauqeer",
 	"license": "MIT",
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"lint": "next lint"
+		"lint": "next lint",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
 	},
 	"dependencies": {
 		"@apollo/client": "^3.3.21",
@@ -19,6 +22,7 @@
 		"classnames": "^2.3.1",
 		"color-thief-react": "^2.1.0",
 		"colorthief": "^2.3.2",
+		"gh-pages": "^3.2.3",
 		"graphql": "^15.5.1",
 		"headroom.js": "^0.12.0",
 		"moment": "^2.29.1",
