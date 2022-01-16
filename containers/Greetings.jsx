@@ -56,10 +56,10 @@ const Greetings = () => {
 								</Col>
 								<Col lg="6" style={{textAlign: "center"}}>
 									{/* <GreetingLottie animationPath="/lottie/coding.json" /> */}
-									<Image 
-										src={"/img/1.png"} 
-										width={"123"}
-										height={"400"}
+									<img 
+										src="/img/1.png"
+										width="123"
+										height="400"
 									/>
 								</Col>
 							</Row>
