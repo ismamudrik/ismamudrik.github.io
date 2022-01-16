@@ -19,7 +19,7 @@ const SocialLinks = () => {
 					<i className="fa fa-github" />
 				</span>
 			</Button>
-			<Button
+			{/* <Button
 				className="btn-icon-only rounded-circle ml-1"
 				color="linkedin"
 				rel="noopener"
@@ -30,7 +30,7 @@ const SocialLinks = () => {
 				<span className="btn-inner--icon">
 					<i className="fa fa-linkedin" />
 				</span>
-			</Button>
+			</Button> */}
 			<Button
 				className="btn-icon-only rounded-circle ml-1"
 				color="stackoverflow"

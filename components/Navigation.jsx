@@ -95,7 +95,7 @@ const Navigation = () => {
 										</span>
 									</NavLink>
 								</NavItem>
-								<NavItem>
+								{/* <NavItem>
 									<NavLink
 										rel="noopener"
 										aria-label="Linkedin"
@@ -108,7 +108,7 @@ const Navigation = () => {
 											Linkedin
 										</span>
 									</NavLink>
-								</NavItem>
+								</NavItem> */}
 								<NavItem>
 									<NavLink
 										rel="noopener"
