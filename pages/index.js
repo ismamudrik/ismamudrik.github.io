@@ -19,19 +19,19 @@ export default function Home({ githubProfileData }) {
 		<div>
 			<SEO
 				data={{
-					title: "Ismail Mudrik",
+					title: "William Jin",
 					description:
 						"A passionate Full Stack Shopify/Shopify Plus/Shopify App Developer.",
-					image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-					url: "https://ismamudrik.github.io",
+					image: "https://avatars.githubusercontent.com/u/96490721?v=4",
+					url: "https://williamjin0215.github.io",
 					keywords: [
-						"Ismail",
-						"Ismail Mudrik",
-						"@ismamudrik",
-						"ismamudrik",
+						"William",
+						"William Jin",
+						"@williamjin",
+						"williamjin",
 						"Portfolio",
-						"Ismail Portfolio ",
-						"Ismail Mudrik Portfolio",
+						"William Portfolio ",
+						"William Jin Portfolio",
 						"shopify developer",
 						"full stack",
 						"full stack web developer",

@@ -1,24 +1,23 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Ismail Mudrik",
-	title: "Hi all, I'm Ismail",
+	name: "William Jin",
+	title: "Hi all, I'm William",
 	description:
 		"A passionate Full Stack Shopify and Shopify App Developer having an experience of building Shopify stores and apps with cool libraries. Also have great experience with Frontend(React, Vue, HTML5) and Backend(Node, PHP, Ruby)",
-	resumeLink: "https://resume.io/r/0RfWFckFj",
+	resumeLink: "https://resume.io/r/bfB7Z8UAb",
 };
 
 export const openSource = {
-	githubUserName: "ismamudrik",
+	githubUserName: "williamjin0215",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	github: "https://github.com/ismamudrik",
-	email: "mailto:ismamudrik@gmail.com",
-	stackOverflow: "https://stackoverflow.com/users/17857821/ismail-mudrik",
-	linkedin: "https://linkedin.com/ismamudrik",
+	github: "https://github.com/williamjin0215",
+	email: "mailto:william.jin0215@gmail.com",
+	linkedin: "https://linkedin.com/in/william-jin-03412b236",
 };
 
 export const skillsSection = {

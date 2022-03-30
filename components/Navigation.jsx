@@ -95,7 +95,7 @@ const Navigation = () => {
 										</span>
 									</NavLink>
 								</NavItem>
-								{/* <NavItem>
+								<NavItem>
 									<NavLink
 										rel="noopener"
 										aria-label="Linkedin"
@@ -106,20 +106,6 @@ const Navigation = () => {
 										<i className="fa fa-linkedin" />
 										<span className="nav-link-inner--text d-lg-none ml-2">
 											Linkedin
-										</span>
-									</NavLink>
-								</NavItem> */}
-								<NavItem>
-									<NavLink
-										rel="noopener"
-										aria-label="Stack Overflow"
-										className="nav-link-icon"
-										href={socialLinks.stackOverflow}
-										target="_blank"
-									>
-										<i className="fa fa-stack-overflow" />
-										<span className="nav-link-inner--text d-lg-none ml-2">
-											Stack Overflow
 										</span>
 									</NavLink>
 								</NavItem>
